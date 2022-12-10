@@ -1,4 +1,6 @@
-/* Global */
+/* 
+ * Global 
+ */
 ul {
   display: flex;
   list-style-type: none;
@@ -30,7 +32,9 @@ body {
   justify-content: center;
 }
 
-/* Buttons */
+/* 
+ * Buttons 
+ */
 .btn-primary {
   background-color: #3882f6;
   border: 0;
@@ -53,7 +57,9 @@ body {
   padding: 8px 24px;
 }
 
-/* Structure */
+/* 
+ * Structure 
+ */
 .page {
   width: 960px;
   background: white;
@@ -88,7 +94,6 @@ footer {
 /* 
  * Header
  */
-
 header {
   justify-content: space-between;
   font-size: 2.4rem;
