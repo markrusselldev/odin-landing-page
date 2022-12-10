@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
@@ -37,7 +41,7 @@ body {
   display: flex;
 }
 
-.txt-eggshell {
+/* .txt-eggshell {
   color: #f9faf8;
 }
 
@@ -47,10 +51,20 @@ body {
 
 .bg-lightgrey {
   background-color: #e5e7eb;
-}
+} */
 
 .btn-primary {
   background-color: #3882f6;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: 600;
+  padding: 8px 24px;
+}
+
+.btn-secondary {
 }
 
 header,
@@ -63,26 +77,24 @@ section {
 }
 
 header,
+header nav a,
 .hero,
 footer {
-  /* background: #1f2937; */
+  background: #1f2937;
+  color: #f9faf8;
 }
 
 /* Header */
-header,
-header nav a {
-  /* color: #f9faf8; */
-}
 
 header {
   justify-content: space-between;
-  font-size: 16px;
-  font-weight: 700;
-  height: 60px;
+  font-size: 1.6rem;
+  font-weight: 900;
+  height: 50px;
 }
 
 header nav a {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: normal;
   padding: 0 8px;
 }
@@ -94,7 +106,26 @@ section {
   padding: 50px 140px;
 }
 
-section h2 {
+/* Hero Section */
+.hero-msg {
+  padding: 0 24px;
+}
+
+.hero-msg h1 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.hero-msg p {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  margin: 0 0 8px 0;
+}
+
+/* Info Section */
+.info-box {
+  text-align: center;
 }
 
 /* Footer */
