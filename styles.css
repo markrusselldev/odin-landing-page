@@ -1,8 +1,4 @@
-/* Testing */
-/* * {
-  border: 1px solid red;
-} */
-
+/* Global */
 ul {
   display: flex;
   list-style-type: none;
@@ -32,32 +28,7 @@ body {
   justify-content: center;
 }
 
-.page {
-  width: 960px;
-  background: white;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-}
-
-/* .txt-eggshell {
-  color: #f9faf8;
-}
-
-.bg-darkblue {
-  background-color: #1f2937;
-}
-
-.bg-lightgrey {
-  background-color: #e5e7eb;
-} */
-
+/* Buttons */
 .btn-primary {
   background-color: #3882f6;
   border: 0;
@@ -78,6 +49,21 @@ body {
   color: #fff;
   font-weight: 600;
   padding: 8px 24px;
+}
+
+/* Structure */
+.page {
+  width: 960px;
+  background: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
 }
 
 header,
@@ -115,7 +101,7 @@ header nav a {
 }
 
 /* 
- * Section
+ * Sections
  */
 section {
   display: flex;
@@ -191,6 +177,21 @@ section.hero {
   text-align: right;
   padding-right: 72px;
   margin: 0;
+}
+
+blockquote p::before,
+blockquote p::after {
+   content: "“";
+   font-family: Georgia, serif;
+   font-size: 10rem;
+   margin: -3rem 0 0 -6rem;
+   position: absolute;
+   color: rgba(0, 0, 0, 0.1);
+}
+
+blockquote p::after {
+   content: "”";
+   margin: -1.6rem 0 0 0;
 }
 
 /*
