@@ -93,13 +93,15 @@ footer {
   color: #f9faf8;
 }
 
-/* Header */
+/* 
+ * Header
+ */
 
 header {
   justify-content: space-between;
   font-size: 2.4rem;
   font-weight: 900;
-  height: 50px;
+  height: 48px;
 }
 
 header nav a {
@@ -108,14 +110,21 @@ header nav a {
   padding: 0 8px;
 }
 
-/* Sections */
+/* 
+ * Section
+ */
 section {
   display: flex;
   flex: 1;
   padding: 48px 120px;
 }
 
-/* Hero Section */
+/* 
+ * Hero Section 
+ */
+section.hero {
+  padding-bottom: 72px;
+}
 .hero-msg {
   padding-right: 24px;
 }
@@ -132,7 +141,9 @@ section {
   margin: 0 0 8px 0;
 }
 
-/* Info Section */
+/* 
+ * Info Section 
+ */
 .info h2 {
   font-size: 3.6rem;
   font-weight: 900;
@@ -155,7 +166,30 @@ section {
   border-radius: 15px;
 }
 
-/* Footer */
+/*
+ * Quote Section
+ */
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-card p {
+  font-style: italic;
+  font-size: 2.4rem;
+  font-weight: 280;
+  margin: 0;
+}
+
+.quote figcaption {
+  font-weight: 700;
+  text-align: right;
+  padding-right: 72px;
+  margin: 0;
+}
+
+/* 
+ * Footer 
+ */
 footer {
   justify-content: center;
 }
