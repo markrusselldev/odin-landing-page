@@ -1,7 +1,7 @@
 /* Testing */
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 ul {
   display: flex;
@@ -25,7 +25,7 @@ body {
 
 .page {
   width: 960px;
-  background: lightblue;
+  background: white;
 }
 
 .column {
@@ -35,6 +35,22 @@ body {
 
 .row {
   display: flex;
+}
+
+.txt-eggshell {
+  color: #f9faf8;
+}
+
+.bg-darkblue {
+  background-color: #1f2937;
+}
+
+.bg-lightgrey {
+  background-color: #e5e7eb;
+}
+
+.btn-primary {
+  background-color: #3882f6;
 }
 
 header,
@@ -49,13 +65,13 @@ section {
 header,
 .hero,
 footer {
-  background: #1f2937;
+  /* background: #1f2937; */
 }
 
 /* Header */
 header,
 header nav a {
-  color: #f9faf8;
+  /* color: #f9faf8; */
 }
 
 header {
